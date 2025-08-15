@@ -1,0 +1,11 @@
+var judgeSquareSum = function(c) {
+   for(let a = 0;a*a<=c;a++){
+     let bsquared = c - (a*a)
+     let b = Math.sqrt(bsquared) 
+     if(b === Math.floor(b)){
+        return true
+     }
+
+   }
+ return false    
+};
